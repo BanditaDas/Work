@@ -126,55 +126,55 @@ function Products() {
             transition={{ease :[0.76, 0, 0.24, 1], duration: .5}}
             className="window absolute w-[32rem] h-[23rem] bg-White left-[45%] overflow-hidden rounded-2xl">
                 <motion.div animate={{y: -pos+ `rem`}} transition={{ease :[0.76, 0, 0.24, 1], duration: .6}} className=" w-full h-full bg-sky-800 ">
-                    <video autoPlay={true}muted loop src="./vid/1.webm"></video>
+                    <video autoPlay={true}muted loop src="https://cdn.refokus.com/website/Arqitel/Arqitel%20project%20video%204_3.webm"></video>
                 </motion.div>
                 <motion.div animate={{y: -pos+ `rem`}} transition={{ease :[0.76, 0, 0.24, 1], duration: .6}} className=" w-full h-full bg-sky-600 ">
-                <video autoPlay={true}muted loop src="./vid/2.mp4"></video>
+                    <video autoPlay={true}muted loop src="https://cdn.refokus.com/website/Cula_promo_new_4_3.mp4"></video>
                 </motion.div>
                 <motion.div animate={{y: -pos+ `rem`}} transition={{ease :[0.76, 0, 0.24, 1], duration: .6}} className=" w-full h-full bg-sky-400 ">
-                    <video autoPlay={true}muted loop src="./vid/3.mp4"></video>
+                    <video autoPlay={true}muted loop src="https://cdn.refokus.com/refokus-promo/webflow-education-promo.mp4"></video>
                 </motion.div>
                 <motion.div animate={{y: -pos+ `rem`}} transition={{ease :[0.76, 0, 0.24, 1], duration: .6}} className=" w-full h-full bg-sky-200 ">
-                    <video autoPlay={true}muted loop src="./vid/4.webm"></video>
+                    <video autoPlay={true}muted loop src="https://cdn.refokus.com/website/TTR/TTR%20project%20video%204_3_H.264.webm"></video>
                 </motion.div>
                 <motion.div animate={{y: -pos+ `rem`}} transition={{ease :[0.76, 0, 0.24, 1], duration: .6}} className=" w-full h-full bg-sky-100 ">
-                    <video autoPlay={true}muted loop src="./vid/5.mp4"></video>
+                    <video autoPlay={true}muted loop src="https://cdn.refokus.com/website/Maniv-Compressed.mp4"></video>
                 </motion.div>
                 <motion.div animate={{y: -pos+ `rem`}} transition={{ease :[0.76, 0, 0.24, 1], duration: .6}} className=" w-full h-full bg-sky-100 ">
-                    <video autoPlay={true}muted loop src="./vid/6.webm"></video>
+                    <video autoPlay={true}muted loop src="https://cdn.refokus.com/website/YIR%20website%202022%204_3_VP9.webm"></video>
                 </motion.div>
                 <motion.div animate={{y: -pos+ `rem`}} transition={{ease :[0.76, 0, 0.24, 1], duration: .6}} className=" w-full h-full bg-sky-100 ">
-                    <video autoPlay={true}muted loop src="./vid/7.webm"></video>
+                    <video autoPlay={true}muted loop src="https://cdn.refokus.com/website/2022/videos/rainfall.webm"></video>
                 </motion.div>
                 <motion.div animate={{y: -pos+ `rem`}} transition={{ease :[0.76, 0, 0.24, 1], duration: .6}} className=" w-full h-full bg-sky-100 ">
-                    <video autoPlay={true}muted loop src="./vid/8.webm"></video>
+                    <video autoPlay={true}muted loop src="https://cdn.refokus.com/website/jungle-4-3-.webm"></video>
                 </motion.div>
                 <motion.div animate={{y: -pos+ `rem`}} transition={{ease :[0.76, 0, 0.24, 1], duration: .5}} className=" w-full h-full bg-sky-100 ">
-                    <video autoPlay={true}muted loop src="./vid/10.webm"></video>
+                    <video autoPlay={true}muted loop src="https://cdn.refokus.com/website/2022/videos/Silvr.webm"></video>
                 </motion.div>
                 <motion.div animate={{y: -pos+ `rem`}} transition={{ease :[0.76, 0, 0.24, 1], duration: .5}} className=" w-full h-full bg-sky-100 ">
-                    <video autoPlay={true}muted loop src="./vid/11.webm"></video>
+                    <video autoPlay={true}muted loop src="https://cdn.refokus.com/website/2022/videos/remind.webm"></video>
                 </motion.div>
                 <motion.div animate={{y: -pos+ `rem`}} transition={{ease :[0.76, 0, 0.24, 1], duration: .5}} className=" w-full h-full bg-sky-100 ">
-                <video autoPlay={true}muted loop src="./vid/12.webm"></video>
+                <video autoPlay={true}muted loop src="https://cdn.refokus.com/website/2022/videos/summon.webm"></video>
                 </motion.div>
                 <motion.div animate={{y: -pos+ `rem`}} transition={{ease :[0.76, 0, 0.24, 1], duration: .5}} className=" w-full h-full bg-sky-100 ">
-                    <video autoPlay={true}muted loop src="./vid/13.webm"></video>
+                    <video autoPlay={true}muted loop src="https://cdn.refokus.com/website/2022/videos/weglotlikemagic.webm"></video>
                 </motion.div>
                 <motion.div animate={{y: -pos+ `rem`}} transition={{ease :[0.76, 0, 0.24, 1], duration: .5}} className=" w-full h-full bg-sky-100 ">
-                    <video autoPlay={true}muted loop src="./vid/14.webm"></video>
+                    <video autoPlay={true}muted loop src="https://cdn.refokus.com/website/2022/videos/rocketchat.webm"></video>
                 </motion.div>
                 <motion.div animate={{y: -pos+ `rem`}} transition={{ease :[0.76, 0, 0.24, 1], duration: .5}} className=" w-full h-full bg-sky-100 ">
-                    <video autoPlay={true}muted loop src="./vid/6.webm"></video>
+                    <video autoPlay={true}muted loop src="https://cdn.refokus.com/website/2022/videos/yearinreview.webm"></video>
                 </motion.div>
                 <motion.div animate={{y: -pos+ `rem`}} transition={{ease :[0.76, 0, 0.24, 1], duration: .5}} className=" w-full h-full bg-sky-100 ">
-                    <video autoPlay={true}muted loop src="./vid/16.webm"></video>
+                    <video autoPlay={true}muted loop src="https://cdn.refokus.com/website/2022/videos/weglot.webm"></video>
                 </motion.div>
                 <motion.div animate={{y: -pos+ `rem`}} transition={{ease :[0.76, 0, 0.24, 1], duration: .5}} className=" w-full h-full bg-sky-100 ">
-                    <video autoPlay={true}muted loop src="./vid/17.webm"></video>
+                    <video autoPlay={true}muted loop src="https://cdn.refokus.com/website/Candid/Candid%20Health%204_3_H.264.webm"></video>
                 </motion.div>
                 <motion.div animate={{y: -pos+ `rem`}} transition={{ease :[0.76, 0, 0.24, 1], duration: .5}} className=" w-full h-full bg-sky-100 ">
-                    <video autoPlay={true}muted loop src="./vid/18.mp4"></video>
+                    <video autoPlay={true}muted loop src="https://cdn.refokus.com/refokus-redesign/showcase_4_3.mp4"></video>
                 </motion.div>
             </motion.div>
         </div>
