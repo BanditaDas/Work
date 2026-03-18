@@ -83,14 +83,14 @@ function Work() {
   })
 
   return (
-    <div className='w-full '>
-        <div className=" relative max-w-screen-xl mx-auto text-center ">
-            <h1 className='text-[36vw] leading-none font-semibold tracking-tight select-none mt-10'>work</h1>
+    <div className='w-full max-lg:w-[100vw]'>
+        <div className=" relative max-w-screen-xl mx-auto text-center max-lg:w-[90vw] max-md:w-[95vw]">
+            <h1 className='text-[36vw] leading-none font-semibold tracking-tight select-none mt-10 max-lg:mt-[5vh] max-md:mt-[3vh]'>work</h1>
             <div className="absolute w-full h-full top-0 ">
-              {images.map((elem, idx)=>(elem.isActive && (<img key={idx} className='w-64 rounded-2xl absolute -translate-x-[50%] -translate-y-[50%]' style={{top : elem.top , left: elem.left}} src={elem.url} alt="" />)))}
+              {images.map((elem, idx)=>(elem.isActive && (<img key={idx} className='w-64 rounded-2xl absolute -translate-x-[50%] -translate-y-[50%] max-lg:w-[30vw] max-md:w-[45vw]' style={{top : elem.top , left: elem.left}} src={elem.url} alt="" />)))}
             </div>
         </div>
-        <div className='text-center text-zinc-400 mb-20 text-lg '>Web Design, Webflow Development, Creative Development</div>
+        <div className='text-center text-zinc-400 mb-20 text-lg max-lg:mb-[10vh] max-lg:text-[2.5vw] max-md:mb-[5vh] max-md:text-[3.5vw]'>Web Design, Webflow Development, Creative Development</div>
     </div>
   )
 }
