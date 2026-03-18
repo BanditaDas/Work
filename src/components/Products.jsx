@@ -117,14 +117,14 @@ function Products() {
     }
 
   return(
-    <div className='mt-32 relative'>
+    <div className='mt-32 relative max-lg:mt-[15vh] max-md:mt-[10vh] max-lg:w-[100vw] overflow-x-hidden'>
         {products.map((val, idx)=> <Product key={idx} val = {val} mover = {mover} count = {idx} />)}
 
-        <div className="absolute top-0 w-full h-full pointer-events-none">
+        <div className="absolute top-0 w-full h-full pointer-events-none max-lg:hidden">
             <motion.div initial= {{y: pos, x: "-50%"}}
             animate={{y :pos +`rem`}}
             transition={{ease :[0.76, 0, 0.24, 1], duration: .5}}
-            className="window absolute w-[32rem] h-[23rem] bg-White left-[45%] overflow-hidden rounded-2xl">
+            className="window absolute w-[32rem] h-[23rem] bg-White left-[45%] overflow-hidden rounded-2xl max-lg:hidden">
                 <motion.div animate={{y: -pos+ `rem`}} transition={{ease :[0.76, 0, 0.24, 1], duration: .6}} className=" w-full h-full bg-sky-800 ">
                     <video autoPlay={true}muted loop src="https://cdn.refokus.com/website/Arqitel/Arqitel%20project%20video%204_3.webm"></video>
                 </motion.div>
