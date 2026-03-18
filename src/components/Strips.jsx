@@ -27,7 +27,7 @@ function Strips() {
     ]
 
   return (
-    <div className='flex items-center'>
+    <div className='flex items-center max-lg:flex-wrap max-lg:w-[100vw]'>
         {data.map((elem, idx)=><Strip val = {elem}  key={idx}/>)}
     </div>
   )
